@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spotlight — Venue Tickets</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="topbar"><div class="brand">Venue Tickets <span>LIVE EVENTS</span></div><div class="event-tag">Event · 19:30</div></header>
+<main class="layout"><section class="main-panel">
+<div class="intro"><div><p class="eyebrow">CONCERT HALL</p><h1>Select Your Seat</h1><p class="muted">Explore the venue, inspect a seat, and add your favorites to your cart.</p></div><span class="pill">240 SEATS</span></div>
+<div class="toolbar"><div class="legend"><span><i class="dot available"></i> Available</span><span><i class="dot inspected"></i> Inspected</span><span><i class="dot cart"></i> In cart</span><span><i class="dot unavailable"></i> Unavailable</span></div></div>
+<div class="map-shell" id="mapShell"><div class="map-content" id="mapContent"><div class="stage">MAIN STAGE</div><div id="venue" class="venue"></div><div class="entrance">MAIN ENTRANCE</div></div></div>
+<div class="controls" aria-label="Venue map navigation"><button id="zoomOut" title="Zoom out">−</button><button id="zoomIn" title="Zoom in">+</button><button id="up" title="Move up">↑</button><button id="down" title="Move down">↓</button><button id="left" title="Move left">←</button><button id="right" title="Move right">→</button><button id="reset">⌖ Reset view</button></div>
+<p class="hint">Tip: scroll over the map to zoom, or drag to move it.</p>
+</section><aside class="sidebar"><section class="side-card"><p class="eyebrow">SEAT INFORMATION</p><h2>Seat details</h2><div id="seatDetails" class="empty">Select an available seat to inspect its details and price.</div><button id="addButton" class="primary" disabled>ADD TO CART</button></section>
+<section class="side-card"><div class="cart-title"><h2>Your cart</h2><span id="cartCount" class="count">0</span></div><div id="cartItems" class="empty">Your cart is empty.</div><div class="total"><span>Total</span><strong id="total">₼0</strong></div><p class="hint">Demo only — no payment is collected.</p></section>
+<section class="side-card"><p class="eyebrow">TICKET TYPES</p><div class="price-row"><span>VIP · Rows A–D</span><b>₼120</b></div><div class="price-row"><span>Premium · Rows E–H</span><b>₼80</b></div><div class="price-row"><span>Standard · Rows I–L</span><b>₼45</b></div></section></aside></main>
+<script src="script.js"></script></body></html>
